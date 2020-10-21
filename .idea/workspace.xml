@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/indeed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stackoverflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/stackoverflow.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603157613729</updated>
       <workItem from="1603157663369" duration="495000" />
-      <workItem from="1603206093718" duration="9572000" />
+      <workItem from="1603206093718" duration="9653000" />
+      <workItem from="1603254600994" duration="2445000" />
+      <workItem from="1603257062640" duration="6478000" />
     </task>
     <task id="LOCAL-00001" summary="add extract_indeed_pages method">
       <created>1603245459167</created>
@@ -75,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603245459167</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add extract_indeed_jobs and company methond">
+      <created>1603248238610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603248238610</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finish indeed python job search">
+      <created>1603256555485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603256555485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,13 +100,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add extract_indeed_pages method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add extract_indeed_pages method" />
+    <MESSAGE value="add extract_indeed_jobs and company methond" />
+    <MESSAGE value="finish indeed python job search" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish indeed python job search" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="124" y="87" key="CommitChangelistDialog2" timestamp="1603245458472">
+    <state x="124" y="87" key="CommitChangelistDialog2" timestamp="1603256554784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="124" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603245458472" />
+    <state x="124" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603256554784" />
     <state x="374" y="418" key="Github.ShareDialog" timestamp="1603206364213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -98,28 +117,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="282" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603206413761" />
-    <state width="954" height="279" key="GridCell.Tab.0.bottom" timestamp="1603248185354">
+    <state width="954" height="279" key="GridCell.Tab.0.bottom" timestamp="1603263538532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603248185354" />
-    <state width="954" height="279" key="GridCell.Tab.0.center" timestamp="1603248185354">
+    <state width="954" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603263538532" />
+    <state width="954" height="279" key="GridCell.Tab.0.center" timestamp="1603263538532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603248185354" />
-    <state width="954" height="279" key="GridCell.Tab.0.left" timestamp="1603248185354">
+    <state width="954" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603263538532" />
+    <state width="954" height="279" key="GridCell.Tab.0.left" timestamp="1603263538532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603248185354" />
-    <state width="954" height="279" key="GridCell.Tab.0.right" timestamp="1603248185354">
+    <state width="954" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603263538532" />
+    <state width="954" height="279" key="GridCell.Tab.0.right" timestamp="1603263538532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603248185354" />
-    <state x="99" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603245471207">
+    <state width="954" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603263538532" />
+    <state x="99" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603256559175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="99" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603245471207" />
+    <state x="99" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603256559175" />
+    <state x="0" y="0" width="700" height="712" key="dock-window-1" timestamp="1603259167715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="700" height="712" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1603259167715" />
+    <state x="0" y="0" width="700" height="712" key="dock-window-2" timestamp="1603259167715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="700" height="712" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1603259167715" />
+    <state x="1076" y="0" width="700" height="712" key="dock-window-3" timestamp="1603263500383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1076" y="0" width="700" height="712" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1603263500383" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/webScrapping$main.coverage" NAME="main Coverage Results" MODIFIED="1603248185344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webScrapping$main.coverage" NAME="main Coverage Results" MODIFIED="1603263538523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
