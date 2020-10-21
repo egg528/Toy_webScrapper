@@ -24,7 +24,24 @@ def extract_indeed_pages():
         pages.append(int(link.string))
 
     max_pages = pages[-1]
-    
+
     return max_pages
+
+def extract_indeed_jobs(last_page):
+    jobs = []
+    #for page in range(last_page):
+    result = requests.get(f"{URL}&start={0*LIMIT}")
+    soup = BeautifulSoup(result.text, "html.parser")
+    results = soup.find_all("div", {"class": "jobsearch-SerpJobCard"})
+    for result in results:
+        title = result.find("h2", {"class": "title"}).find("a")["title"]
+        company = result.find("span", {"class": "company"})
+        company_anchor = company.find("a")
+        if company.anchor == None:
+            company = str(company.string)
+        else:
+            company = str(company.find("a").string)
+        company = company.strip()
+        print("직종: ",title,"  /  ","회사: " ,company)
 
 
