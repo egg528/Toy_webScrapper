@@ -43,6 +43,8 @@ def extract_jobs(last_page):
         for result in results:
             job = extract_job(result)
             jobs.append(job)
+    return jobs
+
 
 def get_jobs():
     last_page = get_last_pages()

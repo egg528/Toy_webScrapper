@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbca5efc-c28e-440d-9a63-cdd114a7a6bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/save.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/indeed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -69,7 +70,7 @@
       <workItem from="1603157663369" duration="495000" />
       <workItem from="1603206093718" duration="9653000" />
       <workItem from="1603254600994" duration="2445000" />
-      <workItem from="1603257062640" duration="6478000" />
+      <workItem from="1603257062640" duration="9778000" />
     </task>
     <task id="LOCAL-00001" summary="add extract_indeed_pages method">
       <created>1603245459167</created>
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603256555485</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish Indeed and Stackoverflow job searching code">
+      <created>1603263612790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603263612790</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,13 +110,14 @@
     <MESSAGE value="add extract_indeed_pages method" />
     <MESSAGE value="add extract_indeed_jobs and company methond" />
     <MESSAGE value="finish indeed python job search" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish indeed python job search" />
+    <MESSAGE value="finish Indeed and Stackoverflow job searching code" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish Indeed and Stackoverflow job searching code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="124" y="87" key="CommitChangelistDialog2" timestamp="1603256554784">
+    <state x="124" y="87" key="CommitChangelistDialog2" timestamp="1603263612073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="124" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603256554784" />
+    <state x="124" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603263612073" />
     <state x="374" y="418" key="Github.ShareDialog" timestamp="1603206364213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -117,26 +126,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="282" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603206413761" />
-    <state width="954" height="279" key="GridCell.Tab.0.bottom" timestamp="1603263538532">
+    <state width="1877" height="382" key="GridCell.Tab.0.bottom" timestamp="1603266336925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603263538532" />
-    <state width="954" height="279" key="GridCell.Tab.0.center" timestamp="1603263538532">
+    <state width="1877" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603266336925" />
+    <state width="1877" height="382" key="GridCell.Tab.0.center" timestamp="1603266336925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603263538532" />
-    <state width="954" height="279" key="GridCell.Tab.0.left" timestamp="1603263538532">
+    <state width="1877" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603266336925" />
+    <state width="1877" height="382" key="GridCell.Tab.0.left" timestamp="1603266336925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603263538532" />
-    <state width="954" height="279" key="GridCell.Tab.0.right" timestamp="1603263538532">
+    <state width="1877" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603266336925" />
+    <state width="1877" height="382" key="GridCell.Tab.0.right" timestamp="1603266336925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="954" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603263538532" />
-    <state x="99" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603256559175">
+    <state width="1877" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603266336925" />
+    <state x="99" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603263614543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="99" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603256559175" />
+    <state x="99" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603263614543" />
     <state x="0" y="0" width="700" height="712" key="dock-window-1" timestamp="1603259167715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -149,8 +158,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1076" y="0" width="700" height="712" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1603263500383" />
+    <state x="540" y="174" key="editAsTableFormatDialogDimension" timestamp="1603266654361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="174" key="editAsTableFormatDialogDimension/0.0.1920.1040@0.0.1920.1040" timestamp="1603266654361" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/webScrapping$main.coverage" NAME="main Coverage Results" MODIFIED="1603263538523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webScrapping$main.coverage" NAME="main Coverage Results" MODIFIED="1603266336908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
